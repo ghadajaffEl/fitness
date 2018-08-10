@@ -1,0 +1,328 @@
+li.menu-item{
+    font-size: 2.5vw;
+	text-align:center;
+	font-family: courier New;
+	list-style-type: none;
+	line-height: 4.5vw;
+	color: white;
+
+}
+/**item number**/
+li span{
+	font-size: 2vw;
+	font-style: italic;
+	color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+	position: absolute;
+	top: 1vw;
+	left: 32vw;
+}
+li.menu-item a{
+	color: white;
+}
+/*div that contain menu*/
+#menu{
+	position: fixed;
+	height: 100%;
+	width: 0%;
+	background-color: black;
+	opacity: 0.8;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: -1;
+
+
+}
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+	position: fixed;
+	left:3vw;
+	top: 2vw;
+	font-size: 2vw;
+	z-index: 11;
+}
+
+span.glyphicon-remove{
+	position: fixed;
+	font-size: 2vw;
+	left:3vw;
+	top: 4vw;
+    color: white;}
+
+/*effet before after link menu*/
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline;
+	opacity: 0;
+	content: '|';
+	
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after {
+	opacity: 1;
+	
+}
+.cl-effect-1 a:hover{
+	font-size: 3vw;
+	color: #EF6DB7;
+
+}
+
+   .slideInRight {
+   		box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+	border-right: 1px solid #888;
+
+
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
+}
+/*image container */
+#container{
+	position: relative;
+	top: 0vw;
+	z-index: 10;
+
+	
+}
+
+.three-image
+{   
+	position: absolute;
+	top: 0vw;
+	left: 50vw;
+}
+
+
+
+   
+a h3{
+	position: absolute;
+	top:5vw;
+	z-index: 10;
+	background-color: rgba(1,1,1,0.5);
+	width: 70%;
+	color: white;
+	left: 17vw;
+}
+
+.image-item{
+	position: relative;
+	left: 15vw;
+	height: 20vw;
+	width: 100%;
+
+}
+
+.item1{
+animation-delay: 2s;
+
+}
+
+.item2{
+animation-delay: 3s;
+}
+.item3{
+animation-delay: 4s;
+}
+  .fadeInUp {
+  	height: 15vw;
+	position: relative;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+.title0{
+	position: absolute;
+	top:20vw;
+	background-color: rgba(1,1,1,0.5);
+	width: 55vw;
+	color: white;
+	left: 11vw;
+}
+
+
+ .img-accueil{
+position: relative;
+height: 100%;
+width: 100%;
+
+    
+}
+
+
+
+@media  (max-width: 475px) {
+li.menu-item{
+    font-size: 8vw;
+	line-height: 14.5vw;
+	
+}
+/**item number**/
+li span{
+	font-size: 6vw;
+	}
+/**ul de class menu container**/
+.menu_container{
+	position: relative;
+	top: 10vw;
+	left: -30px;
+}
+
+
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+	font-size: 10vw;
+	margin-top: 2vw;
+}
+
+span.glyphicon-remove{
+	
+	font-size: 10vw;}
+
+
+/*image container */
+#container{
+	position: relative;
+	top: 0vw;
+	z-index: 10;
+
+	
+}
+
+/*.three-image
+{   
+	
+	height:50vw ;
+}
+
+
+*/
+
+
+.three-image{
+	display: flex;
+	position: absolute;
+	top: 100vw;
+	width: 100%;
+	left: 0vw;
+	
+	
+
+}
+.fadeInUp{
+	height:80vw;
+	position: relative;
+	width:50vw;
+
+
+}
+
+.image-item{
+	position: relative;
+	
+	height: 100%;
+	width: 100%;
+
+	left: 0vw;
+	
+
+}
+#container{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+
+ .img-accueil{
+position: relative;
+height: 100vw;
+width: 100%;
+
+    
+}
+
+a h3{
+	position: absolute;
+	top:5vw;
+	z-index: 10;
+	background-color: rgba(1,1,1,0.5);
+	width: 30vw;
+	color: white;
+	left: 1vw;
+	font-size: 4vw;
+}
+
+
+	
+}

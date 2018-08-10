@@ -1,0 +1,259 @@
+
+li.menu-item{
+    font-size: 2.5vw;
+	text-align:center;
+	font-family: courier New;
+	list-style-type: none;
+	line-height: 4.5vw;
+	color: white;
+
+}
+span.glyphicon-remove{
+	position: fixed;
+	font-size: 2vw;
+	left:3vw;
+	top: 4vw;
+    color: white;}
+    span.glyphicon-menu-hamburger{
+	position: fixed;
+	left:3vw;
+	top: 2vw;
+	font-size: 2vw;
+	z-index: 11;
+}
+/**item number**/
+li span{
+	font-size: 2vw;
+	font-style: italic;
+	color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+	position: absolute;
+	top: 1vw;
+	left: 32vw;
+}
+li.menu-item a{
+	color: white;
+}
+/*div that contain menu*/
+#menu{
+	position: fixed;
+	height: 100%;
+	width: 0%;
+	background-color: black;
+	opacity: 0.8;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: -1;
+
+
+}
+
+.name{
+	margin-left: 12vw;
+	color: #c3135c;
+	z-index: 1;
+}
+
+h3{
+	margin-left:15vw;
+	color: #740035;
+}
+
+.news{
+	background-color:#ffe7fb;
+    margin-left: 20vw;
+    height: 15vw;
+    padding: 0 10vw;
+
+}
+.email{
+	margin-left: 10vw;
+}
+
+.glyphicon-send{
+	color: white;
+	border-radius: 1.2vw;
+	background-color: green;
+	width: 1.7vw;
+	height: 1.5vw;
+	margin: 1vw;
+}
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline;
+	opacity: 0;
+	content: '|';
+	
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after {
+	opacity: 1;
+	
+}
+.cl-effect-1 a:hover{
+	font-size: 3vw;
+	color: #EF6DB7;
+
+}
+.white{
+	color: white;
+}
+#flower{
+
+ 
+	height: 50vw;
+	
+	z-index: 10;
+	
+}
+.form{
+	padding: 1vw;
+	margin-top: 1vw;
+	
+
+
+}
+body{
+	background-image: url("image/bgcontact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.input-group-addon{
+	background-color: white;
+	color: #740035;
+	
+}
+
+.input-group{
+	padding:1.5vw;
+	width: 40vw;
+}
+form{
+	margin-left: 50vw;
+	margin-top: 0vw;
+
+}
+.btn-default{
+	margin-top: 3vw;
+	width: 40vw;
+    margin-right: 10vw;
+    background-color: #740035;
+    color: white;
+}
+.blue{
+	color: white;
+}
+
+#err-name{
+	color: red;
+	position: relative;
+}
+.oublié{
+	margin-left: 20vw;
+}
+.btn-facebook {
+	  background: white;
+	  border-radius: 0;
+	  color: #239ee6;
+	  border-style: solid;
+	  border-color: #239ee6; 
+	  margin-left: 10vw;
+	}
+	.btn-twitter{
+	  background: white;
+	  border-radius: 0;
+	  color: #14d5f4;
+	  border-style: solid;
+	  border-color: #14d5f4; 
+
+	}
+.btn-cnct{
+	width: 35vw;
+	margin-left: 2vw;
+}
+.btn{
+	margin-top: 1vw;
+}
+.error
+{color:red;}
+#msg{
+	height: 6vw;
+}
+
+@media  (max-width: 475px) {
+li.menu-item{
+    font-size: 7.5vw;
+	text-align:center;
+	font-family: courier New;
+	list-style-type: none;
+	line-height: 8.5vw;
+	color: white;
+
+}
+span.glyphicon-remove{
+	position: fixed;
+	font-size: 6vw;
+	left:3vw;
+	top: 4vw;
+    color: white;}
+    span.glyphicon-menu-hamburger{
+	position: fixed;
+	left:3vw;
+	top: 2vw;
+	font-size: 6vw;
+	z-index: 11;
+}
+/**item number**/
+li span{
+	font-size: 5vw;
+	font-style: italic;
+	color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+	position: absolute;
+	top: 7vw;
+	left: 12vw;
+}
+.form{
+	padding: 1vw;
+	margin-top: 2vw;
+
+}
+	#flower{
+
+ position: absolute;
+	height: 50vw;
+	
+	z-index: 10;
+
+	
+}
+
+.input-group{
+	padding:1.5vw;
+	width: 100%;
+}
+#msg{
+	height: 10vw;
+}
+h3{
+	margin-left:4vw;
+	color: #740035;
+}
+	}

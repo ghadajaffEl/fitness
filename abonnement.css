@@ -1,0 +1,462 @@
+.titre_abonnement{font-style: italic;}
+
+li.menu-item{
+    font-size: 2.5vw;
+    text-align:center;
+    font-family: courier New;
+    list-style-type: none;
+    line-height: 4.5vw;
+    color: white;
+
+}
+/**item number**/
+li span{
+    font-size: 2vw;
+    font-style: italic;
+    color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+    position: absolute;
+    top: 1vw;
+    left: 32vw;
+}
+li.menu-item a{
+    color: white;
+}
+/*div that contain menu*/
+#menu{
+    position: fixed;
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    opacity: 0.8;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: -1;
+
+
+}
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+    position: fixed;
+    left:3vw;
+    top: 2vw;
+    font-size: 2vw;
+    z-index: 11;
+}
+
+span.glyphicon-remove{
+    position: fixed;
+    font-size: 2vw;
+    left:3vw;
+    top: 4vw;
+    color: white;}
+
+/*effet before after link menu*/
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+    display: inline;
+    opacity: 0;
+    content: '|';
+    
+}
+
+.cl-effect-1 a::before {
+    margin-right: 10px;
+    
+}
+
+.cl-effect-1 a::after {
+    margin-left: 10px;
+    
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after {
+    opacity: 1;
+    
+}
+.cl-effect-1 a:hover{
+    font-size: 3vw;
+    color: #EF6DB7;
+
+}
+/*image container */
+#container{
+    position: relative;
+    top: 0vw;
+    z-index: 10;
+    
+}
+#head{ 
+    background-color: whitesmoke;
+    background-size:cover;
+    margin-bottom: -0.6vw;
+}
+
+#programmeFitness{ 
+    background-color: gainsboro;
+    background-size:cover;
+}
+.p1 {
+    border: 1px solid black;
+    border-color: white;
+    padding: 10px;
+    width: 710px;
+    height:100px;
+    color :#b2b2b2;;
+    text-align : center;
+    margin-left:24vw;
+    margin-top :1vw;
+    
+}
+.p2 {
+    color :gray;
+   
+    margin-bottom:2vw;
+    
+    
+}
+.p3 {
+    color :gray;
+    text-align : center;
+    margin-bottom:2vw;
+    margin-left:1vw;
+    
+}
+ tr {
+    padding: 20px;
+}
+.h5 {
+    font-size: 2vw;
+    line-height: 1.4em;
+    }
+.titre_fitness{margin-top: 4vw;}
+.titre_abonnement {
+margin-top: 5vw;
+}
+.info1{
+    border: 1px solid #dfdfdf;
+    width: 20vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    float:left;
+    margin-left: 2.8vw;
+    margin-bottom:2vw;
+}
+.info2{
+    border: 1px solid #dfdfdf;
+    width: 20vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    float: left;
+    margin-left: 5vw;
+    margin-bottom:2vw;
+}
+.info3{
+    border: 1px solid #dfdfdf;
+    width: 20vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    float: left;
+margin-left: 5vw;
+margin-bottom:2vw;
+}
+.info4{
+    border: 1px solid #dfdfdf;
+    width: 20vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    float: left;
+    margin-left: 5vw;
+    margin-bottom:2vw;
+}
+ .info-pricing .value{color:red ;}
+ .mark {
+    color: #b2b2b2;
+    font-size: small;   
+}
+
+.info-title{
+    color:red ;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.vc_single_image1{
+    margin-left: 34vw;
+    
+}
+.vc_single_image2{
+    margin-left: 2vw;
+    
+}
+.tableau1  {margin-left:3vw;
+    margin-top:3vw;}
+    .tableau2 {
+        margin-left:3vw;
+        margin-top: 4vw;}
+.qodef-column-inner1 {float: left;
+    margin-left: 6vw;
+}
+.qodef-column-inner2{float: left;
+    margin-left: 28vw;}
+.qodef-column-inner3{float: left;
+margin-left: 20vw;}
+li{text-decoration: none;}
+.titre {color:white;}
+.menu {color:white;}
+.footer{ background-color: black;
+background-size: cover;}
+.tableau{margin-left:2vw;}
+.titre-tab{margin-top: 4vw;}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*#contact
+{ 
+  background-image: url(http://www.101fitness.org/wp-content/uploads/2017/01/test-101-fitness.jpg);
+  background-size: cover;
+margin-top: -2em;
+    }   */  
+#name {  font-size:25px;   
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ;}
+#adresse{  font-size:25px;   
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ; }
+#email{   font-size:25px;
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ;}
+#niveau{   font-size:25px; 
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ; }
+                
+#message {   font-size:25px;
+    height: 80px;
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ; }
+
+.submitsend{  margin-left:590px; 
+     font-size:25px; 
+    background-color: transparent;
+        margin-bottom: 1em;
+        border-style: solid;
+        border-color:#f93e38 ; 
+        -webkit-border-radius: 0.333em;
+        -moz-border-radius: 0.333em;
+        border-radius: 0.333em;
+        color:#f93e38 ;}      
+.NESM{
+     margin-top:40px;
+     margin-left : 420px ;}
+     .label{ color:white;
+    font-size: larger;}
+    #eresult {margin-left: 33vw;}   
+
+@media  (max-width: 475px) 
+{
+
+    li.menu-item{
+        position: relative;
+    font-size: 10.5vw;
+    text-align:center;
+    font-family: courier New;
+    list-style-type: none;
+    line-height: 14.5vw;
+    color: white;
+    right: 32vw;
+
+}
+/**item number**/
+li span{
+    font-size: 9vw;
+    font-style: italic;
+    color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+    position: absolute;
+    top: 0vw;
+    left: 32vw;
+}
+li.menu-item a{
+    color: white;
+}
+/*div that contain menu*/
+#menu{
+    position: fixed;
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    opacity: 0.8;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: -1;
+
+
+}
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+    position: fixed;
+    left:3vw;
+    top: 2vw;
+    font-size: 5vw;
+    z-index: 11;
+
+}
+
+
+span.glyphicon-remove{
+    position: fixed;
+    font-size: 5vw;
+    left:3vw;
+    top: 8vw;
+    color: white;}
+
+.p1 {
+    border: 1px solid black;
+    border-color: white;
+    padding: 10px;
+    width: 100%;
+    height:500px;
+    color :#b2b2b2;
+    text-align : center;
+    margin-left:3vw;
+    margin-top :1vw;
+    
+}
+.parg{
+   position: relative;
+   bottom: 75vw;
+}
+.fitness{
+    width:30vw;
+    height: 30vw;
+    }
+.tableau1  {margin-left:3vw;
+    margin-top:3vw;
+    width: 100%;}
+    #programmeFitness{ 
+    background-color: gainsboro;
+    background-size:cover
+    width:100%;
+}
+.vc_single_image1{
+    width: 40vw;
+    }
+   .vc_single_image2{
+width: 40vw;
+   }
+   .img-contact{
+    display: flex;
+position: relative;
+bottom: 70vw;
+right: 25vw;
+   }
+.info1{
+    border: 1px solid #dfdfdf;
+    
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #fff;
+    float:left;
+    margin-left: 2.8vw;
+    margin-bottom:2vw;
+}
+.info-inner{
+        width: 90vw;
+
+}
+.info-container{
+width: 90vw;
+margin-left: 2vw;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+position: relative;
+bottom: 90vw;
+}
+#programmeFitness{ 
+    position: relative;
+    bottom: 60vw;
+    height: 150vw;
+
+}
+.overflow
+{
+    display: none;
+}
+h5{
+    font-size: 0.6em !important ;
+    margin-left: 1vw;
+}
+.fitness{
+    margin-left: 1vw;
+}
+}

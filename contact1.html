@@ -1,0 +1,89 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="member.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	
+
+	<title>Register</title>
+</head>
+	<body>
+		<nav>		
+<span class="glyphicon glyphicon-menu-hamburger" id="open" onclick="show_menu()">
+		</span>
+		<div id="menu" class="cl-effect-1">
+			<span class="glyphicon glyphicon-remove"onclick="hide_menu()"></span>
+
+			<ul class="menu_container">
+				<li class="menu-item"><span>.01.</span><br>
+					<a  href=""  style="text-decoration:none">ACCUEIL</a>
+				</li>
+				<li class="menu-item"><span>.02.</span><br>
+					<a  href="abonnement.html" style="text-decoration:none">ABONNEMENT</a>
+				</li>
+				<li class="menu-item" ><span class="nbr">.03.</span><br>
+					<a href="nutrition.html" style="text-decoration:none">NUTRITION</a>
+				</li>
+				<li class="menu-item"><span class="nbr">.04.</span><br>
+				<a href="contact.html" style="text-decoration:none">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<main >
+		<section id="flower">
+		<form name="frm1" onsubmit="return send()" action="login.html">
+			<h3>Contactez nous</h3>
+			<div class="form-group">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+    				<input id="name" type="text" class="form-control" name="name" placeholder="Nom Complet" onblur="return validate_name()">
+    				    				
+				</div>
+				<p class="error" id="err-name"></p>	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    				<input id="adresse" type="text" class="form-control" name="adresse" placeholder="Adresse" onblur="return validate_adresse()">
+				</div>
+			    <p class="error" id="err-adresse"></p>	
+
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    				<input id="email" type="text" class="form-control" name="email" placeholder="Email" onblur="return validate_email()">
+				</div>	
+				<p class="error" id="err-email"></p>	
+
+				<div class="input-group">
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					  <input id="niveau" type="text" class="form-control" placeholder="Votre niveau de fitness" onblur="return validate_niveau()">
+				</div>
+				<p class="error" id="err-niveau"></p>		
+
+
+				<div class="input-group">
+					  <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					  <input id="msg" type="text-area" class="form-control" placeholder="Votre message" onblur="return validate_msg()">
+				</div>
+     
+     				<p class="error" id="err-msg"></p>		
+
+    
+				
+				
+ 					  <button type="submit" class="btn btn-default" >S'inscrire</button>
+
+				</div>
+			</div>
+		</form>
+	</section>
+	</main>
+	
+</body>
+</html>

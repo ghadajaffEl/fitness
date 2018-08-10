@@ -1,0 +1,129 @@
+li{text-decoration: none;}
+/*#contact
+{ 
+  background-image: url(http://www.101fitness.org/wp-content/uploads/2017/01/test-101-fitness.jpg);
+  background-size: cover;
+margin-top: -2em;
+    }   */  
+    #name {  font-size:25px;   
+        background-color: transparent;
+            margin-bottom: 1em;
+            border-style: solid;
+            border-color:#AA4472; 
+            -webkit-border-radius: 0.333em;
+            -moz-border-radius: 0.333em;
+            border-radius: 0.333em;
+            color:#f93e38 ;}
+    
+    #message {   font-size:25px;
+        height: 80px;
+        background-color: transparent;
+            margin-bottom: 1em;
+            border-style: solid;
+            border-color:#8F0041 ; 
+            -webkit-border-radius: 0.333em;
+            -moz-border-radius: 0.333em;
+            border-radius: 0.333em;
+            color:#f93e38 ; }
+    
+    .submitsend{  margin-left:590px; 
+         font-size:25px; 
+        background-color: transparent;
+            margin-bottom: 1em;
+            border-style: solid;
+            border-color:#F3006F ; 
+            -webkit-border-radius: 0.333em;
+            -moz-border-radius: 0.333em;
+            border-radius: 0.333em;
+            color:#F3006F ;}      
+    .NESM{
+         margin-top:40px;
+         margin-left : 420px ;}
+         .label{ color:white;
+        font-size: larger;}
+        #eresult {margin-left: 33vw;
+           }   
+    
+    body{
+        background-image: url("image/bgcontact.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    #container{
+        position: relative;
+        right:  25vw;
+    }
+
+    @media  (max-width: 475px) {
+li.menu-item{
+    font-size: 5vw;
+    line-height: 14.5vw;
+    
+}
+/**item number**/
+li span{
+    font-size: 12vw;
+    }
+/**ul de class menu container**/
+.menu_container{
+    position: relative;
+    top: 25vw;
+    left: 30px;
+}
+
+
+
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+    font-size: 10vw;
+    margin-top: 2vw;
+}
+
+span.glyphicon-remove{
+    
+    font-size: 10vw;}
+    
+    
+
+   .titre_contact{
+   /* margin-left: 60vw;*/
+    font-size: 1.5em !important;
+   }
+   #name {  width: 70vw ;
+    height: 15vw;}
+    #message {  width: 100vw ;
+    height: 25vw;}
+     .submitsend{
+
+
+     }
+      #container{
+        position: relative;
+        right:  25vw;
+    }
+     /*.NESM{
+        position: relative;
+         margin-top:40px;
+     
+        width: 15vw;}*/
+         .NESM{
+         margin-top:40px;
+         position: absolute;
+         margin-right: 500px;}
+         .label{ color:black;
+        font-size: larger;}
+       /* #eresult {margin-left: 33vw;
+           }   */
+       
+    #container{
+       /* width: 1%;*/
+    }
+    body{
+        background-image: none;
+        
+
+    }
+
+          
+   }

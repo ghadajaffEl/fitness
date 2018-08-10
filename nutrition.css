@@ -1,0 +1,173 @@
+
+li.menu-item{
+    font-size: 2.5vw;
+	text-align:center;
+	font-family: courier New;
+	list-style-type: none;
+	line-height: 4.5vw;
+	color: white;
+
+}
+/**item number**/
+li span{
+	font-size: 2vw;
+	font-style: italic;
+	color: white;
+}
+/**ul de class menu container**/
+.menu_container{
+	position: absolute;
+	top: 1vw;
+	left: 32vw;
+}
+li.menu-item a{
+	color: white;
+}
+/*div that contain menu*/
+#menu{
+	position: fixed;
+	height: 100%;
+	width: 0%;
+	background-color: black;
+	opacity: 0.8;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: -1;
+
+
+}
+#myCarousel{
+	position: relative;
+	top: 0vw;
+	z-index: 10;
+
+
+}
+
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+	position: fixed;
+	left:3vw;
+	top: 2vw;
+	font-size: 2vw;
+	z-index: 11;
+}
+
+span.glyphicon-remove{
+	position: fixed;
+	font-size: 2vw;
+	left:3vw;
+	top: 4vw;
+    color: white;}
+
+/*effet before after link menu*/
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline;
+	opacity: 0;
+	content: '|';
+	
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after {
+	opacity: 1;
+	
+}
+.cl-effect-1 a:hover{
+	font-size: 3vw;
+	color: #EF6DB7;
+
+}
+.carousel-inner{
+	height:30vw;
+}
+
+.parg {
+	background-color: rgba(255, 224, 154,0.3);
+	position: relative;
+	right: 10vw;
+	height: 20vw;
+	top: 3vw;
+	color: black;
+}
+.row{
+	margin: 5vw;
+}
+.item{
+	height: 30vw;
+}
+
+ 
+@media  (max-width: 475px) {
+li.menu-item{
+    font-size: 10.5vw;
+	line-height: 14.5vw;
+	
+}
+/**item number**/
+li span{
+	font-size: 12vw;
+	}
+/**ul de class menu container**/
+.menu_container{
+	position: relative;
+	top: 25vw;
+	left: -50px;
+}
+
+
+/*hide & show menu*/
+span.glyphicon-menu-hamburger{
+	font-size: 10vw;
+	margin-top: 2vw;
+}
+
+span.glyphicon-remove{
+	
+	font-size: 10vw;}
+
+.carousel-inner{
+	height: 50vw;
+}
+.item{
+height: 100%;
+}
+.item .image{
+	height: 50vw;
+}
+h2{
+	font-size: 0.9em !important;
+	font-weight: bold !important;
+
+}
+p
+{
+
+	font-size: 0.8em ;
+}
+.row{
+	height: 50vw;
+}
+.fadeInRight{
+	height: 40vw;
+	overflow: scroll;
+}
+.fadeInLeft{
+	height: 40vw;
+}
+#article{
+	height: 200vw;
+}
+}
